@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-nav{
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+}
+.section-nav li a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.section-home{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+}
+.section-home{
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+.home-Contact{
+  display: flex;
+  justify-content: space-around;
+}
