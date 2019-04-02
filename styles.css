@@ -19,14 +19,32 @@
 }
 .section-home{
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-
 }
-.section-home{
+.section-about{
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+.section-home,.section-about{
   height: 90vh;
   position: absolute;
   width: 100%;
 }
-.home-Contact{
+.home-Contact,.about-Contact{
+  height: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.home-Contact img{
+  height: 70%;
+}
+.about-Contact img{
+  height: 70%;
+}
+.contact h1{
+font-size: 30px;
+margin: 50px 0;
+}
+.contact p{
+  font-size: 20px;
+
 }
