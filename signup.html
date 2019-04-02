@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <nav>
+      <ul class="section-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact </a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="section-home">
+        <div class="home-Contact">
+          <div class="contact-login">
+              <p>Am home  Now</p>
+              <form class="login-1 signup" action="index.html" method="post">
+                <label for="email">Email address</label><br>
+                <input type="email" name="email" value=""required><br>
+                <input type="email" name="email" value=""required placeholder="Confirm email"><br>
+                <label for="">Password</label><br>
+                <input type="password" name="" value=""required><br>
+                <input type="password" name="" value=""required placeholder="comfirm password"><br>
+                <label for="">Date of birth</label><br>
+                <select class="form-month form-dob" name="">
+                  <option selected>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+                <!-- <input type="month" name="" value=""placeholder="Month"> -->
+                <input class="form-dob day-year day-year-both" type="text" name="" value=""placeholder="Day">
+                <input class="form-dob day-year-both" type="text" name="" value=""placeholder="Year"><br>
+                <div class="">
+                  <label for="male"></label>Male<br>
+                <input class="form-sex" type="radio" name="male" value="">
+                <label for="female"></label>Female<br>
+              <input class="form-sex"type="radio" name="female" value="">
+              <label class="form-sex"for="others"></label>Others<br>
+            <input class="form-sex"type="radio" name="others" value="">
+                </div>
+
+
+                <button type="button" name="button">Sign up</button><br>
+                <!-- <span class="form-span">or</span> -->
+              </form>
+              <p class="create-account">Already have an account? <a href="#">Log in</a></p>
+          </div>
+          <img src="images/home.svg" alt="">
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>
