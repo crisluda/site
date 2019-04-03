@@ -179,6 +179,17 @@ margin: 0px 8px;
   padding: 10px;
   display: inline;
 }
+/* .form-sex-radio:hover{
+  cursor: pointer;
+  color: red;
+} */
+input[type="radio"]:hover{
+  color: red;
+  cursor: pointer;
+}
+.form-sex-label:hover{
+  color: rgb(72, 74, 76);
+}
 .section-home .contact-login{
   height: 90%;
 }
