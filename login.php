@@ -1,3 +1,9 @@
+<?php
+include("includes/handlers/login_handler.php")
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -12,7 +18,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="#">Contact </a></li>
-        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="signup.php">Sign up</a></li>
       </ul>
     </nav>
     <main>
@@ -21,13 +27,13 @@
           <div class="contact-login">
               <p>Am home  Now</p>
               <form class="login-1" action="index.html" method="post">
-                <label for="email">Email address</label><br>
-                <input type="email" name="email" value=""required><br>
-                <label for="">Password</label><br>
-                <input type="password" name="" value=""required><br>
+                <label for="LoginEmail">Email address</label><br>
+                <input id="LoginEmail"type="email" name="LoginEmail" value=""required><br>
+                <label for="LoginPassword">Password</label><br>
+                <input id="LoginPassword"type="password" name="LoginPassword" value=""required><br>
                 <input type="checkbox" name="checkbox" value=""required>
                 <label for="checkbox"></label><br>
-                <button type="button" name="">Sign in</button><br>
+                <button class="form-submit"type="submit" name="LoginButton">Sign in</button><br>
                 <!-- <span class="form-span">or</span> -->
               </form>
               <!-- <p class="create-account"><a href="signup.html">Create an account</a></p> -->
