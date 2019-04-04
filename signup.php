@@ -31,12 +31,12 @@ include("includes/handlers/signup_handler.php");
           <div class="contact-login">
               <p>Sign up with your email address</p>
               <form class="login-1 signup" action="signup.php" method="post">
-                <?php echo $account->getError("username must be between 5 and 25 characters");  ?><br>
-                <label for="SignupUsername">Username</label>
+                <span><?php echo $account->getError("username must be between 5 and 25 characters");  ?><br></span>
+
+                <label class="usernameLabel"for="SignupUsername">Username</label>
                 <input id="SignupUsername"type="text" name="SignupUsername" value=""required>
                 <label for="SignupEmail">Email address</label><br>
                 <input id="SignupEmail"type="email" name="SignupEmail" value=""required><br>
-                <!-- <input id="SignupEmailConfirm"type="email" name="SignupEmailConfirm" value=""required placeholder="Confirm email"><br> -->
                 <label for="SignupPassword">Password</label><br>
                 <input id="SignupPassword"type="password" name="SignupPassword" value=""required><br>
                 <input type="password" name="SignupPasswordConfirm" value=""required placeholder="comfirm password"><br>
